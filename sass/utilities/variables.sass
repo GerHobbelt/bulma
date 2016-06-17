@@ -3,12 +3,18 @@
 // Colors
 
 $black: #111 !default
-$grey-darker: #222324 !default
-$grey-dark: #69707a !default
-$grey: #aeb1b5 !default
-$grey-light: #d3d6db !default
-$grey-lighter: #f5f7fa !default
+$grey-darker: rgba($black, 0.92) !default
+$grey-dark: rgba($black, 0.6) !default
+$grey: rgba($black, 0.33) !default
+$grey-light: rgba($black, 0.17) !default
+$grey-lighter: rgba($black, 0.03) !default
+
 $white: #fff !default
+$grey-darker-invert: rgba($white, 0.14) !default
+$grey-dark-invert: rgba($white, 0.44) !default
+$grey-invert: rgba($white, 0.7) !default
+$grey-light-invert: rgba($white, 0.84) !default
+$grey-lighter-invert: rgba($white, 0.97) !default
 
 $blue: #42afe3 !default
 $green: #97cd76 !default
@@ -82,14 +88,15 @@ $success-invert: findColorInvert($success) !default
 $warning-invert: findColorInvert($warning) !default
 $danger-invert: findColorInvert($danger) !default
 
-$light-invert: $dark !default
-$dark-invert: $light !default
+$light-invert: $grey-dark !default
+$dark-invert: $grey-lighter-invert !default
 
 // General colors
 
 $body-background: $grey-lighter !default
 
 $background: $grey-lighter !default
+$background-invert: $grey-lighter-invert !default
 
 $border: $grey-light !default
 $border-hover: $grey !default
@@ -104,6 +111,7 @@ $text-strong: $grey-darker !default
 
 $code: $red !default
 $code-background: $background !default
+$code-background-invert: $background-invert !default
 
 $pre: $text !default
 $pre-background: $background !default
