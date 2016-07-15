@@ -1764,6 +1764,10 @@ a.box:active {
   color: #ed6c63;
 }
 
+.help.is-inverted {
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .control-label {
     margin-bottom: 5px;
