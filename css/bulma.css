@@ -4595,6 +4595,32 @@ a.box:active {
   margin-top: 20px;
 }
 
+.menu.is-inverted {
+  background-color: #111;
+}
+
+.menu.is-inverted .menu-list a {
+  color: white;
+}
+
+.menu.is-inverted .menu-list a:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  color: white;
+}
+
+.menu.is-inverted .menu-list a.is-active {
+  background-color: white;
+  color: #1fc8db;
+}
+
+.menu.is-inverted .menu-list li ul {
+  border-left: 1px solid rgba(17, 17, 17, 0.6);
+}
+
+.menu.is-inverted .menu-label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .message-body {
   border: 1px solid rgba(17, 17, 17, 0.17);
   border-radius: 3px;
