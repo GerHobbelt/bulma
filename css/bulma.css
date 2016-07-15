@@ -1180,7 +1180,7 @@ a.box:active {
 
 .button.is-link {
   background-color: transparent;
-  border-color: transparent;
+  border: none;
   color: rgba(17, 17, 17, 0.6);
   text-decoration: underline;
 }
@@ -1188,6 +1188,14 @@ a.box:active {
 .button.is-link:hover, .button.is-link:focus {
   background-color: rgba(17, 17, 17, 0.17);
   color: rgba(17, 17, 17, 0.92);
+}
+
+.button.is-link.is-inverted {
+  color: white;
+}
+
+.button.is-link.is-inverted:hover, .button.is-link.is-inverted:focus {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .button.is-small {
