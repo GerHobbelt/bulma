@@ -339,7 +339,8 @@ table th {
 }
 
 .fa {
-  font-size: 21px;
+  font-size: 150%;
+  line-height: 96%;
   text-align: center;
   vertical-align: top;
 }
