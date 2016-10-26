@@ -839,6 +839,10 @@ a.box:active {
   border-color: transparent transparent #111 #111 !important;
 }
 
+.button.is-white.is-loading.is-outlined:after {
+  border-color: transparent transparent #fff #fff !important;
+}
+
 .button.is-white.is-outlined {
   background-color: transparent;
   border-color: #fff;
@@ -878,6 +882,10 @@ a.box:active {
 
 .button.is-black.is-loading:after {
   border-color: transparent transparent #fff #fff !important;
+}
+
+.button.is-black.is-loading.is-outlined:after {
+  border-color: transparent transparent #111 #111 !important;
 }
 
 .button.is-black.is-outlined {
@@ -921,6 +929,10 @@ a.box:active {
   border-color: transparent transparent rgba(17, 17, 17, 0.6) rgba(17, 17, 17, 0.6) !important;
 }
 
+.button.is-light.is-loading.is-outlined:after {
+  border-color: transparent transparent rgba(17, 17, 17, 0.03) rgba(17, 17, 17, 0.03) !important;
+}
+
 .button.is-light.is-outlined {
   background-color: transparent;
   border-color: rgba(17, 17, 17, 0.03);
@@ -960,6 +972,10 @@ a.box:active {
 
 .button.is-dark.is-loading:after {
   border-color: transparent transparent rgba(255, 255, 255, 0.97) rgba(255, 255, 255, 0.97) !important;
+}
+
+.button.is-dark.is-loading.is-outlined:after {
+  border-color: transparent transparent rgba(17, 17, 17, 0.6) rgba(17, 17, 17, 0.6) !important;
 }
 
 .button.is-dark.is-outlined {
@@ -1003,6 +1019,10 @@ a.box:active {
   border-color: transparent transparent white white !important;
 }
 
+.button.is-primary.is-loading.is-outlined:after {
+  border-color: transparent transparent #1fc8db #1fc8db !important;
+}
+
 .button.is-primary.is-outlined {
   background-color: transparent;
   border-color: #1fc8db;
@@ -1042,6 +1062,10 @@ a.box:active {
 
 .button.is-info.is-loading:after {
   border-color: transparent transparent white white !important;
+}
+
+.button.is-info.is-loading.is-outlined:after {
+  border-color: transparent transparent #42afe3 #42afe3 !important;
 }
 
 .button.is-info.is-outlined {
@@ -1085,6 +1109,10 @@ a.box:active {
   border-color: transparent transparent white white !important;
 }
 
+.button.is-success.is-loading.is-outlined:after {
+  border-color: transparent transparent #97cd76 #97cd76 !important;
+}
+
 .button.is-success.is-outlined {
   background-color: transparent;
   border-color: #97cd76;
@@ -1126,6 +1154,10 @@ a.box:active {
   border-color: transparent transparent rgba(17, 17, 17, 0.5) rgba(17, 17, 17, 0.5) !important;
 }
 
+.button.is-warning.is-loading.is-outlined:after {
+  border-color: transparent transparent #fce473 #fce473 !important;
+}
+
 .button.is-warning.is-outlined {
   background-color: transparent;
   border-color: #fce473;
@@ -1165,6 +1197,10 @@ a.box:active {
 
 .button.is-danger.is-loading:after {
   border-color: transparent transparent white white !important;
+}
+
+.button.is-danger.is-loading.is-outlined:after {
+  border-color: transparent transparent #ed6c63 #ed6c63 !important;
 }
 
 .button.is-danger.is-outlined {
