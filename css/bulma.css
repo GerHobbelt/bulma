@@ -4521,7 +4521,7 @@ a.box:active {
   margin-bottom: 10px;
 }
 
-.media .media {
+.media > .media-content > .media {
   border-top: 1px solid rgba(17, 17, 17, 0.085);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4529,16 +4529,16 @@ a.box:active {
   padding-top: 10px;
 }
 
-.media .media .content:not(:last-child),
-.media .media .control:not(:last-child) {
+.media > .media-content > .media .content:not(:last-child),
+.media > .media-content > .media .control:not(:last-child) {
   margin-bottom: 5px;
 }
 
-.media .media .media {
+.media > .media-content > .media > .media-content > .media {
   padding-top: 5px;
 }
 
-.media .media .media + .media {
+.media > .media-content > .media > .media-content > .media + .media {
   margin-top: 5px;
 }
 
