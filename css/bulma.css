@@ -839,7 +839,7 @@ a.box:active {
   border-color: transparent transparent #111 #111 !important;
 }
 
-.button.is-white.is-loading.is-outlined:after {
+.button.is-white.is-loading.is-inverted:after, .button.is-white.is-loading.is-outlined:after {
   border-color: transparent transparent #fff #fff !important;
 }
 
@@ -884,7 +884,7 @@ a.box:active {
   border-color: transparent transparent #fff #fff !important;
 }
 
-.button.is-black.is-loading.is-outlined:after {
+.button.is-black.is-loading.is-inverted:after, .button.is-black.is-loading.is-outlined:after {
   border-color: transparent transparent #111 #111 !important;
 }
 
@@ -929,7 +929,7 @@ a.box:active {
   border-color: transparent transparent rgba(17, 17, 17, 0.6) rgba(17, 17, 17, 0.6) !important;
 }
 
-.button.is-light.is-loading.is-outlined:after {
+.button.is-light.is-loading.is-inverted:after, .button.is-light.is-loading.is-outlined:after {
   border-color: transparent transparent rgba(17, 17, 17, 0.03) rgba(17, 17, 17, 0.03) !important;
 }
 
@@ -974,7 +974,7 @@ a.box:active {
   border-color: transparent transparent rgba(255, 255, 255, 0.97) rgba(255, 255, 255, 0.97) !important;
 }
 
-.button.is-dark.is-loading.is-outlined:after {
+.button.is-dark.is-loading.is-inverted:after, .button.is-dark.is-loading.is-outlined:after {
   border-color: transparent transparent rgba(17, 17, 17, 0.6) rgba(17, 17, 17, 0.6) !important;
 }
 
@@ -1019,7 +1019,7 @@ a.box:active {
   border-color: transparent transparent white white !important;
 }
 
-.button.is-primary.is-loading.is-outlined:after {
+.button.is-primary.is-loading.is-inverted:after, .button.is-primary.is-loading.is-outlined:after {
   border-color: transparent transparent #1fc8db #1fc8db !important;
 }
 
@@ -1064,7 +1064,7 @@ a.box:active {
   border-color: transparent transparent white white !important;
 }
 
-.button.is-info.is-loading.is-outlined:after {
+.button.is-info.is-loading.is-inverted:after, .button.is-info.is-loading.is-outlined:after {
   border-color: transparent transparent #42afe3 #42afe3 !important;
 }
 
@@ -1109,7 +1109,7 @@ a.box:active {
   border-color: transparent transparent white white !important;
 }
 
-.button.is-success.is-loading.is-outlined:after {
+.button.is-success.is-loading.is-inverted:after, .button.is-success.is-loading.is-outlined:after {
   border-color: transparent transparent #97cd76 #97cd76 !important;
 }
 
@@ -1154,7 +1154,7 @@ a.box:active {
   border-color: transparent transparent rgba(17, 17, 17, 0.5) rgba(17, 17, 17, 0.5) !important;
 }
 
-.button.is-warning.is-loading.is-outlined:after {
+.button.is-warning.is-loading.is-inverted:after, .button.is-warning.is-loading.is-outlined:after {
   border-color: transparent transparent #fce473 #fce473 !important;
 }
 
@@ -1199,7 +1199,7 @@ a.box:active {
   border-color: transparent transparent white white !important;
 }
 
-.button.is-danger.is-loading.is-outlined:after {
+.button.is-danger.is-loading.is-inverted:after, .button.is-danger.is-loading.is-outlined:after {
   border-color: transparent transparent #ed6c63 #ed6c63 !important;
 }
 
