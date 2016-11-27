@@ -73,6 +73,10 @@
         &.is-outlined
           &:after
             border-color: transparent transparent $color $color !important
+          &:hover,
+          &focus
+            &:after
+              border-color: transparent transparent $color-invert $color-invert !important
       &.is-outlined
         background-color: transparent
         border-color: $color
