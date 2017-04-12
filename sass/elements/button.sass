@@ -56,7 +56,7 @@
       &:hover,
       &:focus,
       &.is-active
-        background-color: darken($color, 10%)
+        box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1)
         border-color: transparent
         color: $color-invert
       &:active
@@ -65,7 +65,7 @@
         background-color: $color-invert
         color: $color
         &:hover
-          background-color: darken($color-invert, 5%)
+          box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05)
       &.is-loading
         &:after
           border-color: transparent transparent $color-invert $color-invert !important

@@ -817,7 +817,7 @@ a.box:active {
 }
 
 .button.is-white:hover, .button.is-white:focus, .button.is-white.is-active {
-  background-color: #e6e6e6;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1);
   border-color: transparent;
   color: #111;
 }
@@ -832,7 +832,7 @@ a.box:active {
 }
 
 .button.is-white.is-inverted:hover {
-  background-color: #040404;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05);
 }
 
 .button.is-white.is-loading:after {
@@ -866,7 +866,7 @@ a.box:active {
 }
 
 .button.is-black:hover, .button.is-black:focus, .button.is-black.is-active {
-  background-color: black;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1);
   border-color: transparent;
   color: #fff;
 }
@@ -881,7 +881,7 @@ a.box:active {
 }
 
 .button.is-black.is-inverted:hover {
-  background-color: #f2f2f2;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05);
 }
 
 .button.is-black.is-loading:after {
@@ -915,7 +915,7 @@ a.box:active {
 }
 
 .button.is-light:hover, .button.is-light:focus, .button.is-light.is-active {
-  background-color: rgba(0, 0, 0, 0.03);
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1);
   border-color: transparent;
   color: rgba(17, 17, 17, 0.6);
 }
@@ -930,7 +930,7 @@ a.box:active {
 }
 
 .button.is-light.is-inverted:hover {
-  background-color: rgba(4, 4, 4, 0.6);
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05);
 }
 
 .button.is-light.is-loading:after {
@@ -964,7 +964,7 @@ a.box:active {
 }
 
 .button.is-dark:hover, .button.is-dark:focus, .button.is-dark.is-active {
-  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1);
   border-color: transparent;
   color: rgba(255, 255, 255, 0.97);
 }
@@ -979,7 +979,7 @@ a.box:active {
 }
 
 .button.is-dark.is-inverted:hover {
-  background-color: rgba(242, 242, 242, 0.97);
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05);
 }
 
 .button.is-dark.is-loading:after {
@@ -1013,7 +1013,7 @@ a.box:active {
 }
 
 .button.is-primary:hover, .button.is-primary:focus, .button.is-primary.is-active {
-  background-color: #199fae;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1);
   border-color: transparent;
   color: white;
 }
@@ -1028,7 +1028,7 @@ a.box:active {
 }
 
 .button.is-primary.is-inverted:hover {
-  background-color: #f2f2f2;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05);
 }
 
 .button.is-primary.is-loading:after {
@@ -1062,7 +1062,7 @@ a.box:active {
 }
 
 .button.is-info:hover, .button.is-info:focus, .button.is-info.is-active {
-  background-color: #1f99d3;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1);
   border-color: transparent;
   color: white;
 }
@@ -1077,7 +1077,7 @@ a.box:active {
 }
 
 .button.is-info.is-inverted:hover {
-  background-color: #f2f2f2;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05);
 }
 
 .button.is-info.is-loading:after {
@@ -1111,7 +1111,7 @@ a.box:active {
 }
 
 .button.is-success:hover, .button.is-success:focus, .button.is-success.is-active {
-  background-color: #7bbf51;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1);
   border-color: transparent;
   color: white;
 }
@@ -1126,7 +1126,7 @@ a.box:active {
 }
 
 .button.is-success.is-inverted:hover {
-  background-color: #f2f2f2;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05);
 }
 
 .button.is-success.is-loading:after {
@@ -1160,7 +1160,7 @@ a.box:active {
 }
 
 .button.is-warning:hover, .button.is-warning:focus, .button.is-warning.is-active {
-  background-color: #fbda41;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1);
   border-color: transparent;
   color: rgba(17, 17, 17, 0.5);
 }
@@ -1175,7 +1175,7 @@ a.box:active {
 }
 
 .button.is-warning.is-inverted:hover {
-  background-color: rgba(4, 4, 4, 0.5);
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05);
 }
 
 .button.is-warning.is-loading:after {
@@ -1209,7 +1209,7 @@ a.box:active {
 }
 
 .button.is-danger:hover, .button.is-danger:focus, .button.is-danger.is-active {
-  background-color: #e84135;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.1);
   border-color: transparent;
   color: white;
 }
@@ -1224,7 +1224,7 @@ a.box:active {
 }
 
 .button.is-danger.is-inverted:hover {
-  background-color: #f2f2f2;
+  box-shadow: inset 0 0 9999px rgba(0, 0, 0, 0.05);
 }
 
 .button.is-danger.is-loading:after {
